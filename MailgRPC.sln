@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailgRPC.Server", "src\MailgRPC.Server\MailgRPC.Server.csproj", "{D647B42A-7E1A-4F53-863F-7E704933647A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailgRPC.Client", "src\MailgRPC.Client\MailgRPC.Client.csproj", "{F9C2F08E-04FF-4274-8DD0-70165ADCD375}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D647B42A-7E1A-4F53-863F-7E704933647A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D647B42A-7E1A-4F53-863F-7E704933647A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D647B42A-7E1A-4F53-863F-7E704933647A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D647B42A-7E1A-4F53-863F-7E704933647A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9C2F08E-04FF-4274-8DD0-70165ADCD375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9C2F08E-04FF-4274-8DD0-70165ADCD375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9C2F08E-04FF-4274-8DD0-70165ADCD375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9C2F08E-04FF-4274-8DD0-70165ADCD375}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1798F7ED-5896-49CD-84F4-5F0E9E5C4EC3}
+	EndGlobalSection
+EndGlobal

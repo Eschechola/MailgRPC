@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "MailgRPC.Server";
+
+package mailing;
+
+service Mailing {
+  rpc SendMail (MailRequest) returns (MailResponse);
+}
+
+message MailRequest {
+  string receiver = 1;
+  string subject = 2;
+  string body = 3;
+}
+
+message MailResponse {
+  string message = 1;
+  bool success = 2;
+}
